@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.0.4.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 1in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+	</style>
+</head>
+<body lang="en" link="#000080" vlink="#800000" dir="ltr"><p style="margin-bottom: 0in">
+&lt;!DOCTYPE html&gt;</p>
+<p style="margin-bottom: 0in">&lt;html&gt;</p>
+<p style="margin-bottom: 0in">&lt;title&gt;W3.CSS Template&lt;/title&gt;</p>
+<p style="margin-bottom: 0in">&lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+<p style="margin-bottom: 0in">&lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, initial-scale=1&quot;&gt;</p>
+<p style="margin-bottom: 0in">&lt;link rel=&quot;stylesheet&quot;
+href=&quot;https://www.w3schools.com/w3css/4/w3.css&quot;&gt;</p>
+<p style="margin-bottom: 0in">&lt;link rel=&quot;stylesheet&quot;
+href=&quot;https://fonts.googleapis.com/css?family=Raleway&quot;&gt;</p>
+<p style="margin-bottom: 0in">&lt;style&gt;</p>
+<p style="margin-bottom: 0in">body,h1 {font-family: &quot;Raleway&quot;,
+sans-serif}</p>
+<p style="margin-bottom: 0in">body, html {height: 100%}</p>
+<p style="margin-bottom: 0in">.bgimg {</p>
+<p style="margin-bottom: 0in">  background-image:
+url('/w3images/forestbridge.jpg');</p>
+<p style="margin-bottom: 0in">  min-height: 100%;</p>
+<p style="margin-bottom: 0in">  background-position: center;</p>
+<p style="margin-bottom: 0in">  background-size: cover;</p>
+<p style="margin-bottom: 0in">}</p>
+<p style="margin-bottom: 0in">&lt;/style&gt;</p>
+<p style="margin-bottom: 0in">&lt;body&gt;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">&lt;div class=&quot;bgimg
+w3-display-container w3-animate-opacity w3-text-white&quot;&gt;</p>
+<p style="margin-bottom: 0in">  &lt;div class=&quot;w3-display-topleft
+w3-padding-large w3-xlarge&quot;&gt;</p>
+<p style="margin-bottom: 0in">    jtr inc</p>
+<p style="margin-bottom: 0in">  &lt;/div&gt;</p>
+<p style="margin-bottom: 0in">  &lt;div class=&quot;w3-display-middle&quot;&gt;</p>
+<p style="margin-bottom: 0in">    &lt;h1 class=&quot;w3-jumbo
+w3-animate-top&quot;&gt;jtr inc is COMING SOON&lt;/h1&gt;</p>
+<p style="margin-bottom: 0in">    &lt;hr class=&quot;w3-border-grey&quot;
+style=&quot;margin:auto;width:40%&quot;&gt;</p>
+<p style="margin-bottom: 0in">    &lt;p class=&lt;!-- Display the
+countdown timer in an element --&gt;</p>
+<p style="margin-bottom: 0in">&lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">&lt;script&gt;</p>
+<p style="margin-bottom: 0in">// Set the date we're counting down to</p>
+<p style="margin-bottom: 0in">var countDownDate = new Date(&quot;oct
+25, 2022 8:00.0&quot;).getTime();</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">// Update the count down every 1 second</p>
+<p style="margin-bottom: 0in">var x = setInterval(function() {</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">  // Get today's date and time</p>
+<p style="margin-bottom: 0in">  var now = new Date().getTime();</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">  // Find the distance between now and
+the count down date</p>
+<p style="margin-bottom: 0in">  var distance = countDownDate - now;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">  // Time calculations for days, hours,
+minutes and seconds</p>
+<p style="margin-bottom: 0in">  var days = Math.floor(distance /
+(1000 * 60 * 60 * 24));</p>
+<p style="margin-bottom: 0in">  var hours = Math.floor((distance %
+(1000 * 60 * 60 * 24)) / (1000 * 60 * 60));</p>
+<p style="margin-bottom: 0in">  var minutes = Math.floor((distance %
+(1000 * 60 * 60)) / (1000 * 60));</p>
+<p style="margin-bottom: 0in">  var seconds = Math.floor((distance %
+(1000 * 60)) / 1000);</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">  // Display the result in the element
+with id=&quot;demo&quot;</p>
+<p style="margin-bottom: 0in"> 
+document.getElementById(&quot;demo&quot;).innerHTML = days + &quot;d
+&quot; + hours + &quot;h &quot;</p>
+<p style="margin-bottom: 0in">  + minutes + &quot;m &quot; + seconds
++ &quot;s &quot;;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">  // If the count down is finished,
+write some text</p>
+<p style="margin-bottom: 0in">  if (distance &lt; 0) {</p>
+<p style="margin-bottom: 0in">    clearInterval(x);</p>
+<p style="margin-bottom: 0in">   
+document.getElementById(&quot;demo&quot;).innerHTML = &quot;launched!&quot;;</p>
+<p style="margin-bottom: 0in">  }</p>
+<p style="margin-bottom: 0in">}, 1000);</p>
+<p style="margin-bottom: 0in">&lt;/script&gt;</p>
+<p style="margin-bottom: 0in">  &lt;/div&gt;</p>
+<p style="margin-bottom: 0in">  &lt;div class=&quot;w3-display-bottomleft
+w3-padding-large&quot;&gt;</p>
+<p style="margin-bottom: 0in">    Powered by &lt;a
+href=&quot;https://jtrc.ml&quot; target=&quot;_blank&quot;&gt;jtr
+inc&lt;/a&gt;</p>
+<p style="margin-bottom: 0in">  &lt;/div&gt;</p>
+<p style="margin-bottom: 0in">&lt;/div&gt;</p>
+<p style="margin-bottom: 0in">&lt;/footer&gt;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">&lt;/script&gt;</p>
+<p style="margin-bottom: 0in">&lt;/body&gt;</p>
+<p style="margin-bottom: 0in">&lt;/html&gt;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+</body>
+</html>
